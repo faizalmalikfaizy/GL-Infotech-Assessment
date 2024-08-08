@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GL INFOTECH</title>
+    <link rel="icon" type="png" href="assets/images/logo_image.png">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <header class="header fixed-top">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/images/logo (1).png" class="img-fluid">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link fs-20 text-white" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-20 text-white" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle fs-20 text-white" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Products
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item fs-20" href="#">Action</a></li>
+                                <li><a class="dropdown-item fs-20" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item fs-20" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle fs-20 text-white" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Services
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item fs-20" href="#">Action</a></li>
+                                <li><a class="dropdown-item fs-20" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item fs-20" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-20 text-white">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-20 text-white">Contact Us</a>
+                        </li>
+                    </ul>
+
+                    <div class="menu-btn d-lg-block d-none">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+
+                    <div class="header__nav d-lg-block d-none">
+                        <nav class="nav d-block">
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <ul class="nav__list">
+                                        <li class="nav__list_item mb-4"><a class="nav__link" href="#">Home</a></li>
+                                        <li class="nav__list_item mb-4"><a class="nav__link" href="#">About Us</a></li>
+                                        <li class="nav__list_item mb-4"><a class="nav__link" href="#">Products</a></li>
+                                        <li class="nav__list_item mb-4"><a class="nav__link" href="#">Services</a></li>
+                                        <li class="nav__list_item mb-4"><a class="nav__link" href="#">Projects</a></li>
+                                        <li class="nav__list_item mb-4"><a class="nav__link" href="#">Contact Us</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-7">
+                                    <ul class="nav__list">
+                                        <li class="nav__list_item cor-text mb-4">CORPORATE
+                                            OFFICE
+                                        </li>
+                                        <li class="nav__list_item lor-text mb-4">LOREM
+                                            IPSUM</li>
+                                        <li class="nav__list_item mb-4"><a class="nav__link contacts d-flex" href="#">
+                                                <i class="bi bi-geo-alt-fill"></i>lorem ipsum <br> lorem ipsum lorem
+                                                ipsum<br>
+                                                Dubai, UAE</a></li>
+                                        <li class="nav__list_item mb-4"><a class="nav__link contacts d-flex" href="#">
+                                                <i class="bi bi-telephone"></i>+91 9585 4852 55 <br> +90 7585 5555
+                                                66</a>
+                                        </li>
+                                        <li class="nav__list_item mb-4"><a class="nav__link contacts d-flex" href="#">
+                                                <i class="bi bi-envelope"></i>www.glinfo.com</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </nav>
+    </header>
+    <section class="banner">
+        <div class="swiper bannerSwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide d-flex py-5">
+                    <div class="container">
+                        <div class="row h-100 justify-content-between">
+                            <div class="col-md-6">
+                                <div class="content">
+                                    <p class="banner-text-beat text-white">Beat the Heat</p>
+                                    <h1 class="banner-text-lorem text-white">Lorem Ipsum is <span
+                                            class="line-block">Lorem Ipsum Lorem</span> Lorem </h1>
+                                </div>
+                            </div>
+                            <div class="col-md-4 align-self-center">
+                                <div class="list-content d-flex flex-wrap position-relative flex-column">
+                                    <h5 class="text-white sub-head">More about services</h5>
+                                    <p class="text-white sub-description">is simply dummy text of the printing and type
+                                        settings industry. <span class="line-block">dummy text of the printing and type
+                                            settings industry.</span>lorem is simply dummy text of the printing and type
+                                        settings industry. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide d-flex py-5">
+                    <div class="container">
+                        <div class="row h-100 justify-content-between">
+                            <div class="col-md-6">
+                                <div class="content">
+                                    <p class="banner-text-beat text-white">Beat the Heat</p>
+                                    <h1 class="banner-text-lorem text-white">Lorem Ipsum is <span
+                                            class="line-block">Lorem Ipsum Lorem</span> Lorem </h1>
+                                </div>
+                            </div>
+                            <div class="col-md-4 align-self-center">
+                                <div class="list-content d-flex flex-wrap position-relative flex-column">
+                                    <h5 class="text-white sub-head">More about services</h5>
+                                    <p class="text-white sub-description">is simply dummy text of the printing and type
+                                        settings industry. <span class="line-block">dummy text of the printing and type
+                                            settings industry.</span> text of the printing and type settings industry.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide d-flex py-5">
+                    <div class="container">
+                        <div class="row h-100 justify-content-between">
+                            <div class="col-md-6">
+                                <div class="content">
+                                    <p class="banner-text-beat text-white">Beat the Heat</p>
+                                    <h1 class="banner-text-lorem text-white">Lorem Ipsum is <span
+                                            class="line-block">Lorem Ipsum Lorem</span> Lorem </h1>
+                                </div>
+                            </div>
+                            <div class="col-md-4 align-self-center">
+                                <div class="list-content d-flex flex-wrap position-relative flex-column">
+                                    <h5 class="text-white sub-head">More about services</h5>
+                                    <p class="text-white sub-description">is simply dummy text of the printing and type
+                                        settings industry. <span class="line-block">dummy text of the printing and type
+                                            settings industry.</span> text of the printing and type settings industry.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+    <section class="icon-sec pb-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6" data-aos="fade-up">
+                    <div class="bnr-box">
+                        <div class="banner-box-content p-4">
+                            <img src="assets/images/Path 7.png" class="img-fluid">
+                            <p class="text-black fw-semibold my-4">Lorem Ipsum</p>
+                        </div>
+                        <div class="banner-content p-4 pt-0">
+                            <p class="mb-5 description-text">It is a long established fact that a reader will be
+                                distracted by the readable content of a page when looking at its layout</p>
+                            <a href="#" class="cta-btn text-decoration-none text-green">know more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="bnr-box">
+                        <div class="banner-box-content p-4">
+                            <img src="assets/images/Group 4.png" class="img-fluid">
+                            <p class="text-black fw-semibold my-4">Lorem Ipsum</p>
+                        </div>
+                        <div class="banner-content p-4 pt-0">
+                            <p class="mb-5 description-text">It is a long established fact that a reader will be
+                                distracted by the readable content of a page when looking at its layout</p>
+                            <a href="#" class="cta-btn text-decoration-none text-pink">know more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="bnr-box">
+                        <div class="banner-box-content p-4">
+                            <img src="assets/images/Group 6.png" class="img-fluid">
+                            <p class="text-black fw-semibold my-4">Lorem Ipsum</p>
+                        </div>
+                        <div class="banner-content p-4 pt-0">
+                            <p class="mb-5 description-text">It is a long established fact that a reader will be
+                                distracted by the readable content of a page when looking at its layout</p>
+                            <a href="#" class="cta-btn text-decoration-none text-skyblue">know more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="bnr-box">
+                        <div class="banner-box-content p-4">
+                            <img src="assets/images/Group 8.png" class="img-fluid">
+                            <p class="text-black fw-semibold my-4">Lorem Ipsum</p>
+                        </div>
+                        <div class="banner-content p-4 pt-0">
+                            <p class="mb-5 description-text">It is a long established fact that a reader will be
+                                distracted by the readable content of a page when looking at its layout</p>
+                            <a href="#" class="cta-btn text-decoration-none text-orange">know more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about  position-relative">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-lg-5">
+                    <div class="about-sec-boxs" data-aos="fade-up">
+                        <h3 class="about-sub-head">About us</h3>
+                        <h1 class="about-main-head">It is a long establish <span class="line-block">fact that a
+                                reader</span> it is a long </h1>
+                        <p class="about-description">It is a long established fact that a reader will be distracted by
+                            the readable content of a page when looking at its layout. The point of using lorem ipsum is
+                            that it has a more-or-less normal distribution of letter, as opposed to using content here,
+                            content here, making it look like readable English. Many desktop Published packages and web
+                            pages editors now use lorem ipsum as their default model text, and a search for lorem ipsum
+                            will uncover many web site still in their infancy. Various versions have evolved over the
+                            years, sometimes</p>
+                        <p class="about-company">More about company</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row about-sec-box gx-4" data-aos="fade-up">
+                        <div class="col-c-5-5 d-flex">
+                            <img src="assets/images/vertical-shot-people-riding-camels-sand-dune-desert.png"
+                                class="img-fluid">
+                        </div>
+                        <div class="col-c-6-5 d-flex"> <img
+                                src="assets/images/dubai-skyline-sunset-time-united-arab-emirates.png"
+                                class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="assets/images/Group 163.png" class="img-fluid design-image">
+    </section>
+    <section class="image-slider py-5">
+        <div class="slider" data-aos="fade-up">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="image-content">
+                            <img src="assets/images/difc_2.png" class="img-fluid">
+                            <div class="swiper-contents">
+                                <h4 class="swiper-head">is simply dummy text of the printing</h4>
+                                <p class="swiper-description">is simply dummy text of the printing and typesetting is
+                                    simply dummy text of the
+                                    printing
+                                    and typesetting is simply dummy text of the printing and typesetting</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="image-content">
+                            <img src="assets/images/Arabian-Ranches-3-New-Cover.png" class="img-fluid">
+                            <div class="swiper-contents">
+                                <h4 class="swiper-head">is simply dummy text of the printing</h4>
+                                <p class="swiper-description">is simply dummy text of the printing and typesetting is
+                                    simply dummy text of the
+                                    printing
+                                    and typesetting is simply dummy text of the printing and typesetting</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="image-content">
+                            <img src="assets/images/the-edge-image-53.png" class="img-fluid">
+                            <div class="swiper-contents">
+                                <h4 class="swiper-head">is simply dummy text of the printing</h4>
+                                <p class="swiper-description">is simply dummy text of the printing and typesetting is
+                                    simply dummy text of the
+                                    printing
+                                    and typesetting is simply dummy text of the printing and typesetting</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="image-content">
+                            <img src="assets/images/difc_2.png" class="img-fluid">
+                            <div class="swiper-contents">
+                                <h4 class="swiper-head">is simply dummy text of the printing</h4>
+                                <p class="swiper-description">is simply dummy text of the printing and typesetting is
+                                    simply dummy text of the
+                                    printing
+                                    and typesetting is simply dummy text of the printing and typesetting</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="image-content">
+                            <img src="assets/images/Arabian-Ranches-3-New-Cover.png" class="img-fluid">
+                            <div class="swiper-contents">
+                                <h4 class="swiper-head">is simply dummy text of the printing</h4>
+                                <p class="swiper-description">is simply dummy text of the printing and typesetting is
+                                    simply dummy text of the
+                                    printing
+                                    and typesetting is simply dummy text of the printing and typesetting</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="image-content">
+                            <img src="assets/images/the-edge-image-53.png" class="img-fluid">
+                            <div class="swiper-contents">
+                                <h4 class="swiper-head">is simply dummy text of the printing</h4>
+                                <p class="swiper-description">is simply dummy text of the printing and typesetting is
+                                    simply dummy text of the
+                                    printing
+                                    and typesetting is simply dummy text of the printing and typesetting</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next img-next"></div>
+                <div class="swiper-button-prev img-prev"></div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src="assets/images/logo (1).png" class="footer-image">
+                    <p class="footer-description">is simply dummy text of the printing and typesetting is simply dummy
+                        text of the printing and typesetting</p>
+                    <ul class="nav flex-row pt-4 gap-2">
+                        <li class="nav-item ">
+                            <a href="#" class="nav-link p-0 footer-menu">
+                                <img src="assets/images/Group 54.png" class="img-fluid footer-icons">
+                            </a>
+                        </li>
+                        <li class="nav-item ">
+                            <a href="#" class="nav-link p-0 footer-menu">
+                                <img src="assets/images/Group 56.png" class="img-fluid footer-icons">
+                            </a>
+                        </li>
+                        <li class="nav-item ">
+                            <a href="#" class="nav-link p-0 footer-menu">
+                                <img src="assets/images/Group 58.png" class="img-fluid footer-icons">
+                            </a>
+                        </li>
+                        <li class="nav-item ">
+                            <a href="#" class="nav-link p-0 footer-menu">
+                                <img src="assets/images/Group 60.png" class="img-fluid footer-icons">
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link p-0 footer-menu">
+                                <img src="assets/images/Group 62.png" class="img-fluid footer-icons">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-8 footer-border">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <h5 class="nav-headline text-white">Corporate office</h5>
+                            <ul class=" flex-column pt-3">
+                                <li class="nav-item mb-2">
+                                    <a href="#" class="nav-link p-0 footer-menu">is simply dummy text of the</a>
+                                </li>
+                                <li class="nav-item mb-2">
+                                    <a href="#" class="nav-link p-0 footer-menu">printing and typesetting</a>
+                                </li>
+                                <li class="nav-item mb-2">
+                                    <a href="#" class="nav-link p-0 footer-menu"></a>
+                                </li>
+                                <li class="nav-item mb-2">
+                                    <a href="#" class="nav-link p-0 footer-menu"></a>
+                                </li>
+                                <li class="nav-item mb-2">
+                                    <a href="#" class="nav-link p-0 footer-menu">+91 98 458 888</a>
+                                </li>
+                                <li class="nav-item mb-2">
+                                    <a href="#" class="nav-link p-0 footer-menu">lorem@ipsum.com</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4">
+                            <h5 class="nav-headline text-white">Services</h5>
+                            <ul class=" flex-column pt-3">
+                                <li class="nav-item mb-2">
+                                    <a href="#" class="nav-link p-0 footer-menu">simply dummy</a>
+                                </li>
+                                <li class="nav-item mb-2">
+                                    <a href="#" class="nav-link p-0 footer-menu">simply dummy</a>
+                                </li>
+                                <li class="nav-item mb-2">
+                                    <a href="#" class="nav-link p-0 footer-menu">simply dummy</a>
+                                </li>
+                                <li class="nav-item mb-2">
+                                    <a href="#" class="nav-link p-0 footer-menu">simply dummy</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4">
+                            <h5 class="nav-headline text-white">Navigations</h5>
+                            <ul class=" flex-column pt-3">
+                                <li class="nav-item mb-2">
+                                    <a href="#" class="nav-link p-0 footer-menu">Home</a>
+                                </li>
+                                <li class="nav-item mb-2">
+                                    <a href="#" class="nav-link p-0 footer-menu">Products</a>
+                                </li>
+                                <li class="nav-item mb-2">
+                                    <a href="#" class="nav-link p-0 footer-menu">Projects</a>
+                                </li>
+                                <li class="nav-item mb-2">
+                                    <a href="#" class="nav-link p-0 footer-menu">Blog</a>
+                                </li>
+                                <li class="nav-item mb-2">
+                                    <a href="#" class="nav-link p-0 footer-menu">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="copy-text mt-5">
+                        <p>All Rights Reserved @ 2024 - Website Designed by <span class="copy-text-co">GL
+                                Infotech</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="scripts.js"></script>
+    <script>
+        // Initialize AOS (Animate On Scroll)
+        AOS.init({
+            duration: 1000,
+            easing: "ease-in-out",
+        });
+        var swiper = new Swiper(".bannerSwiper", {
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 20,
+            centeredSlides: true,
+            loop: true,
+            navigation: {
+                nextEl: ".img-next",
+                prevEl: ".img-prev",
+            },
+            breakpoints: {
+                640: {
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },
+                1024: {
+                    slidesPerView: 3,
+                    spaceBetween: 20,
+                },
+            },
+        });
+
+        let menuBtn = document.querySelector('.menu-btn');
+        let menu = document.querySelector('.nav');
+        let menuItem = document.querySelectorAll('.nav__link');
+
+        menuBtn.addEventListener('click', function () {
+            menuBtn.classList.toggle('active');
+            menu.classList.toggle('active');
+        })
+
+        menuItem.forEach(function (menuItem) {
+            menuItem.addEventListener('click', function () {
+                menuBtn.classList.toggle('active');
+                menu.classList.toggle('active');
+            })
+        })
+
+    </script>
+</body>
+
+</html>
